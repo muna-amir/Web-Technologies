@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">       
+        <title>Image Links Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+    
+            h1, h2, h3 {
+                color: #333;
+            }
+    
+            img {
+                max-width: 100%;
+                height: auto;
+                border: 2px solid #ddd;
+                border-radius: 8px;
+                margin: 10px 0;
+            }
+    
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 15px;
+            }
+    
+            .menu {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            .menu li {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>   
+    <body>
+        <section id="home">
+            <h1>Welcome to our Website!</h1>
+            <p>Explore the fascinating worlds of technology, nature, and food through captivating images.</p>
+            <a href="https://en.wikipedia.org/wiki/Technology" target="_blank">
+                <img src="Images/technology-and-us.jpg" alt="Technology Image">
+            </a>
+        </section>
+    
+        <section id="gallery">
+            <h2>Nature Gallery</h2>
+            <div class="gallery">
+                <a href="https://www.pexels.com/search/nature/" target="_blank">
+                    <img src="Images/nature1.jpg" alt="Nature Image 1" height="600" width="400">
+                </a>
+                <a href="https://naturekenya.org/" target="_blank">
+                    <img src="Images/nature2.jpg" alt="Nature Image 2" height="600" width="400">
+                </a>
+                <a href="https://www.nature.org/en-us/" target="_blank">
+                    <img src="Images/nature3.jpg" alt="Nature Image 3" height="600" width="400">
+                </a>
+            </div>
+        </section>
+    
+        <section id="menu">
+            <h3>Food Menu</h3>
+            <ul class="menu">
+                <li>
+                    <a href="https://recipes.timesofindia.com/recipes/macaroni/rs58761198.cms" target="_blank">
+                        <img src="Images/macaroni.jpg" alt="Food Item 1" height="300" width="200">
+                    </a>
+                    <p>Food Item 1</p>
+                </li>
+                <li>
+                    <a href="https://www.delish.com/cooking/recipe-ideas/g2972/chicken-weeknight-dinners/" target="_blank">
+                        <img src="Images/chicken.jpg" alt="Food Item 2" height="300" width="200">
+                    </a>
+                    <p>Food Item 2</p>
+                </li>
+                <li>
+                    <a href="https://feelgoodfoodie.net/recipe/ground-beef-tacos-napa-cabbage-guacamole/" target="_blank">
+                        <img src="Images/tacos.png" alt="Food Item 3" height="300" width="200">
+                    </a>
+                    <p>Food Item 3</p>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>
